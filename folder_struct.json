@@ -1,0 +1,81 @@
+{
+    "home": {
+      "user": {
+        "core": {
+          "traefik": {
+            "traefik-data": {
+              "configurations": {
+                "files": ["dynamic.yml"]
+              },
+              "files": ["traefik.yml", "acme.json"]
+            },
+            "files": ["docker-compose.yml"]
+          },
+          "caddy": {}
+        },
+        "databases": {
+          "mssql": {
+            "files": ["docker-compose.yml"],
+            "data": {}
+          },
+          "mysql": {
+            "files": ["docker-compose.yml"],
+            "data": {}
+          },
+          "supabase": {
+            "files": ["docker-compose.yml"],
+            "data": {}
+          }
+        },
+        "utilities": {
+          "portainer": {
+            "files": ["docker-compose.yml"]
+          },
+          "memos": {
+            "files": ["docker-compose.yml"]
+          },
+          "keycloak": {
+            "files": ["docker-compose.yml"]
+          }
+        },
+        "apps": {
+          "fastapi": {
+            "project1": {
+              "files": ["docker-compose.yml"]
+            },
+            "project2": {
+              "files": ["docker-compose.yml"]
+            }
+          },
+          "django": {
+            "project1": {
+              "files": ["docker-compose.yml"]
+            },
+            "project2": {
+              "files": ["docker-compose.yml"]
+            }
+          },
+          "nextjs": {
+            "project1": {
+              "files": ["docker-compose.yml"]
+            },
+            "project2": {
+              "files": ["docker-compose.yml"]
+            }
+          },
+          "react": {
+            "project1": {
+              "files": ["docker-compose.yml"]
+            },
+            "project2": {
+              "files": ["docker-compose.yml"]
+            }
+          }
+        },
+        "shared_networks": {
+          "files": ["docker-compose.yml"]
+        }
+      }
+    }
+  }
+  

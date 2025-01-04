@@ -1,0 +1,44 @@
+SSH key pair already exists.
+
+
+
+
+
+
+
+
+
+
+
+
+Hit:1 http://asi-fs-l.contabo.net/ubuntu jammy InRelease
+Hit:2 http://asi-fs-l.contabo.net/ubuntu jammy-updates InRelease
+Hit:3 http://asi-fs-l.contabo.net/ubuntu jammy-backports InRelease
+Hit:4 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Reading package lists...
+
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+ca-certificates is already the newest version (20240203~22.04.1).
+curl is already the newest version (7.81.0-1ubuntu1.18).
+software-properties-common is already the newest version (0.99.22.9).
+apt-transport-https is already the newest version (2.4.13).
+0 upgraded, 0 newly installed, 0 to remove and 8 not upgraded.
+
+
+
+
+
+
+Hit:1 http://asi-fs-l.contabo.net/ubuntu jammy InRelease
+Hit:2 http://asi-fs-l.contabo.net/ubuntu jammy-updates InRelease
+Hit:3 http://asi-fs-l.contabo.net/ubuntu jammy-backports InRelease
+Get:4 https://download.docker.com/linux/ubuntu jammy InRelease [48.8 kB]
+Get:5 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+Get:6 https://download.docker.com/linux/ubuntu jammy/stable amd64 Packages [40.7 kB]
+Fetched 218 kB in 1s (347 kB/s)
+Reading package lists...
+
+

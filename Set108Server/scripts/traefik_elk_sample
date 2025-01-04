@@ -1,0 +1,12 @@
+      labels:
+        - "traefik.enable=true"
+        - "traefik.http.routers.elk.rule=Host(`kibana.DOMAIN.COM`)"
+        - "traefik.http.routers.elk.entrypoints=web"
+        - "traefik.http.services.elk.loadbalancer.server.port=5601"
+        - "traefik.http.routers.elk.service=elk"
+        - "traefik.http.middlewares.test-auth.basicauth.users=test:$$apr1$$H6uskkkW$$IgXLP6ewTrSuBkTrqE8wj/,test2:$$apr1$$d9hr9HBB$$4HxwgUir3HP4EsggP/QNo0"
+        - "traefik.http.routers.elk.middlewares=test-auth"
+networks:
+  default:
+    external:
+      name: traefik_net

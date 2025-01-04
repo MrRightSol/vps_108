@@ -1,0 +1,324 @@
+SSH key pair already exists.
+
+
+
+
+
+
+
+
+
+
+
+
+SSH connection successful!
+
+Docker is already installed.
+Docker Compose is already installed.
+
+adduser: The user `markoos' already exists.
+
+
+
+
+
+
+
+User markoos created and added to docker group.
+
+
+
+
+
+
+
+
+
+
+Base path set to: /home/markoos
+Creating directory: /home/markoos\core
+
+mkdir: cannot create directory ‘/home/markooscore’: Permission denied
+
+Creating directory: /home/markoos\core\traefik
+
+mkdir: cannot create directory ‘/home/markooscoretraefik’: Permission denied
+
+Creating directory: /home/markoos\core\traefik\traefik-data
+
+mkdir: cannot create directory ‘/home/markooscoretraefiktraefik-data’: Permission denied
+
+Creating directory: /home/markoos\core\traefik\traefik-data\configurations
+
+mkdir: cannot create directory ‘/home/markooscoretraefiktraefik-dataconfigurations’: Permission denied
+
+Creating file: /home/markoos\core\traefik\traefik-data\configurations\dynamic.yml
+
+touch: cannot touch '/home/markooscoretraefiktraefik-dataconfigurationsdynamic.yml': Permission denied
+
+Creating file: /home/markoos\core\traefik\traefik-data\traefik.yml
+
+touch: cannot touch '/home/markooscoretraefiktraefik-datatraefik.yml': Permission denied
+
+Creating file: /home/markoos\core\traefik\traefik-data\acme.json
+
+touch: cannot touch '/home/markooscoretraefiktraefik-dataacme.json': Permission denied
+
+Creating file: /home/markoos\core\traefik\docker-compose.yml
+
+touch: cannot touch '/home/markooscoretraefikdocker-compose.yml': Permission denied
+
+Creating directory: /home/markoos\core\caddy
+
+mkdir: cannot create directory ‘/home/markooscorecaddy’: Permission denied
+
+Creating directory: /home/markoos\databases
+
+mkdir: cannot create directory ‘/home/markoosdatabases’: Permission denied
+
+Creating directory: /home/markoos\databases\mssql
+
+mkdir: cannot create directory ‘/home/markoosdatabasesmssql’: Permission denied
+
+Creating file: /home/markoos\databases\mssql\docker-compose.yml
+
+touch: cannot touch '/home/markoosdatabasesmssqldocker-compose.yml': Permission denied
+
+Creating directory: /home/markoos\databases\mssql\data
+
+mkdir: cannot create directory ‘/home/markoosdatabasesmssqldata’: Permission denied
+
+Creating directory: /home/markoos\databases\mysql
+
+mkdir: cannot create directory ‘/home/markoosdatabasesmysql’: Permission denied
+
+Creating file: /home/markoos\databases\mysql\docker-compose.yml
+
+touch: cannot touch '/home/markoosdatabasesmysqldocker-compose.yml': Permission denied
+
+Creating directory: /home/markoos\databases\mysql\data
+
+mkdir: cannot create directory ‘/home/markoosdatabasesmysqldata’: Permission denied
+
+Creating directory: /home/markoos\databases\supabase
+
+mkdir: cannot create directory ‘/home/markoosdatabasessupabase’: Permission denied
+
+Creating file: /home/markoos\databases\supabase\docker-compose.yml
+
+touch: cannot touch '/home/markoosdatabasessupabasedocker-compose.yml': Permission denied
+
+Creating directory: /home/markoos\databases\supabase\data
+
+mkdir: cannot create directory ‘/home/markoosdatabasessupabasedata’: Permission denied
+
+Creating directory: /home/markoos\utilities
+
+mkdir: cannot create directory ‘/home/markoosutilities’: Permission denied
+
+Creating directory: /home/markoos\utilities\portainer
+
+mkdir: cannot create directory ‘/home/markoosutilitiesportainer’: Permission denied
+
+Creating file: /home/markoos\utilities\portainer\docker-compose.yml
+
+touch: cannot touch '/home/markoosutilitiesportainerdocker-compose.yml': Permission denied
+
+Creating directory: /home/markoos\utilities\memos
+
+mkdir: cannot create directory ‘/home/markoosutilitiesmemos’: Permission denied
+
+Creating file: /home/markoos\utilities\memos\docker-compose.yml
+
+touch: cannot touch '/home/markoosutilitiesmemosdocker-compose.yml': Permission denied
+
+Creating directory: /home/markoos\utilities\keycloak
+
+mkdir: cannot create directory ‘/home/markoosutilitieskeycloak’: Permission denied
+
+Creating file: /home/markoos\utilities\keycloak\docker-compose.yml
+
+touch: cannot touch '/home/markoosutilitieskeycloakdocker-compose.yml': Permission denied
+
+Creating directory: /home/markoos\apps
+
+mkdir: cannot create directory ‘/home/markoosapps’: Permission denied
+
+Creating directory: /home/markoos\apps\fastapi
+
+mkdir: cannot create directory ‘/home/markoosappsfastapi’: Permission denied
+
+Creating directory: /home/markoos\apps\fastapi\project1
+
+mkdir: cannot create directory ‘/home/markoosappsfastapiproject1’: Permission denied
+
+Creating file: /home/markoos\apps\fastapi\project1\docker-compose.yml
+
+touch: cannot touch '/home/markoosappsfastapiproject1docker-compose.yml': Permission denied
+
+Creating directory: /home/markoos\apps\fastapi\project2
+
+mkdir: cannot create directory ‘/home/markoosappsfastapiproject2’: Permission denied
+
+Creating file: /home/markoos\apps\fastapi\project2\docker-compose.yml
+
+touch: cannot touch '/home/markoosappsfastapiproject2docker-compose.yml': Permission denied
+
+Creating directory: /home/markoos\apps\django
+
+mkdir: cannot create directory ‘/home/markoosappsdjango’: Permission denied
+
+Creating directory: /home/markoos\apps\django\project1
+
+mkdir: cannot create directory ‘/home/markoosappsdjangoproject1’: Permission denied
+
+Creating file: /home/markoos\apps\django\project1\docker-compose.yml
+
+touch: cannot touch '/home/markoosappsdjangoproject1docker-compose.yml': Permission denied
+
+Creating directory: /home/markoos\apps\django\project2
+
+mkdir: cannot create directory ‘/home/markoosappsdjangoproject2’: Permission denied
+
+Creating file: /home/markoos\apps\django\project2\docker-compose.yml
+
+touch: cannot touch '/home/markoosappsdjangoproject2docker-compose.yml': Permission denied
+
+Creating directory: /home/markoos\apps\nextjs
+
+mkdir: cannot create directory ‘/home/markoosappsnextjs’: Permission denied
+
+Creating directory: /home/markoos\apps\nextjs\project1
+
+mkdir: cannot create directory ‘/home/markoosappsnextjsproject1’: Permission denied
+
+Creating file: /home/markoos\apps\nextjs\project1\docker-compose.yml
+
+touch: cannot touch '/home/markoosappsnextjsproject1docker-compose.yml': Permission denied
+
+Creating directory: /home/markoos\apps\nextjs\project2
+
+mkdir: cannot create directory ‘/home/markoosappsnextjsproject2’: Permission denied
+
+Creating file: /home/markoos\apps\nextjs\project2\docker-compose.yml
+
+touch: cannot touch '/home/markoosappsnextjsproject2docker-compose.yml': Permission denied
+
+Creating directory: /home/markoos\apps\react
+
+mkdir: cannot create directory ‘/home/markoosappsreact’: Permission denied
+
+Creating directory: /home/markoos\apps\react\project1
+
+mkdir: cannot create directory ‘/home/markoosappsreactproject1’: Permission denied
+
+Creating file: /home/markoos\apps\react\project1\docker-compose.yml
+
+touch: cannot touch '/home/markoosappsreactproject1docker-compose.yml': Permission denied
+
+Creating directory: /home/markoos\apps\react\project2
+
+mkdir: cannot create directory ‘/home/markoosappsreactproject2’: Permission denied
+
+Creating file: /home/markoos\apps\react\project2\docker-compose.yml
+
+touch: cannot touch '/home/markoosappsreactproject2docker-compose.yml': Permission denied
+
+Creating directory: /home/markoos\shared_networks
+
+mkdir: cannot create directory ‘/home/markoosshared_networks’: Permission denied
+
+Creating file: /home/markoos\shared_networks\docker-compose.yml
+
+touch: cannot touch '/home/markoosshared_networksdocker-compose.yml': Permission denied
+
+Executing: mkdir -p /home/markoos/core/traefik/traefik-data/configurations
+
+
+Traefik Docker Compose file created at: /home/markoos/core/traefik/docker-compose.yml
+Creating Traefik configuration files at: /home/markoos/core/traefik/traefik-data
+Executing: mkdir -p /home/markoos/core/traefik/traefik-data/configurations
+STDOUT: 
+STDERR: 
+Executing: 
+cat <<EOF > /home/markoos/core/traefik/traefik-data/traefik.yml
+api:
+  dashboard: true
+
+entryPoints:
+  web:
+    address: ":80"
+    http:
+      redirections:
+        entryPoint:
+          to: websecure
+
+  websecure:
+    address: ":443"
+    http:
+      middlewares:
+        - secureHeaders@file
+      tls:
+        certResolver: letsencrypt
+
+providers:
+  docker:
+    endpoint: "unix:///var/run/docker.sock"
+    exposedByDefault: false
+  file:
+    filename: /configurations/dynamic.yml
+
+certificatesResolvers:
+  letsencrypt:
+    acme:
+      email: markoos@goozoola.com
+      storage: acme.json
+      keyType: EC384
+      httpChallenge:
+        entryPoint: web
+EOF
+    
+STDOUT: 
+STDERR: 
+Executing: 
+cat <<EOF > /home/markoos/core/traefik/traefik-data/configurations/dynamic.yml
+# Dynamic configuration
+http:
+  middlewares:
+    secureHeaders:
+      headers:
+        sslRedirect: true
+        forceSTSHeader: true
+        stsIncludeSubdomains: true
+        stsPreload: true
+        stsSeconds: 31536000
+    user-auth:
+      basicAuth:
+        users:
+          - "marktraf:$apr1$2EjH7K7r$z4rpxjxPKqFT5fwBo3xT/0"
+
+tls:
+  options:
+    default:
+      cipherSuites:
+        - TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+        - TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+        - TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+        - TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+        - TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305
+        - TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305
+      minVersion: VersionTLS12
+EOF
+    
+STDOUT: 
+STDERR: 
+Executing: 
+cat <<EOF > /home/markoos/core/traefik/traefik-data/acme.json
+
+STDOUT: 
+STDERR: bash: line 2: warning: here-document at line 2 delimited by end-of-file (wanted `EOF')
+
+Executing: chmod 600 /home/markoos/core/traefik/traefik-data/acme.json
+STDOUT: 
+STDERR: 
+Traefik configuration files created on server.

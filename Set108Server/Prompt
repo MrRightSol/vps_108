@@ -1,0 +1,26 @@
+Prompt:
+
+We have been working on automating the setup of a VPS using a Python script. The script accomplishes the following tasks:
+
+Logs into the server via SSH.
+Creates an SSH key if it doesn't already exist and sets it up for root login.
+Installs Docker and Docker Compose, checking if they are already installed.
+Creates a new user, grants them access to Docker, and adds the SSH key for the new user.
+Creates a specific folder structure under the new user's home directory based on a provided JSON configuration.
+The script ensures that directories and files are created without using sudo, adhering to the preference to use root privileges only when absolutely necessary. The script also captures logs into a timestamped file.
+
+Next, we need to:
+
+Verify and test the script to ensure all components work correctly.
+Consider additional steps such as setting up a reverse proxy (like Caddy or Traefik) in Docker containers.
+Discuss firewall settings and security hardening measures for the VPS.
+Please provide the latest version of the Python script to continue from this point.
+
+--------------------------------------------------------------------------------------------------------------
+
+
+Need a python script will read all files in a folder (paramenter) and based on rules it will organize the set of rows that represent invoices to put them in order.
+Rules are in config,json and they drive logic on what and how to do it. 
+skip key will indicate the row that should be skipped (meaning not sorted) and just kept the way they are, in our example skip lines 1-2 and lines 3-5.
+Other rules are use to identify where the header of the invoice is by matching the key "match" and the column range 41-46, if there's a match, then we will use key "sort" to define the order, in our case ascending meaning a-z, 0-9, and so on, as well as the key "key"' that indicates what columns should be used in the sort process.
+Ask me questions to what you need to get an initial script going, or just generate it and we will adjust we needed till we get it working.
